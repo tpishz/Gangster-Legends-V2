@@ -13,7 +13,7 @@ INSERT INTO `crimes` (`C_id`, `C_name`, `C_cooldown`, `C_money`, `C_maxMoney`, `
 (2, 'Rob a cab driver', 45, 10, 18, 1);
 
 INSERT INTO `gameNews` (`GN_id`, `GN_author`, `GN_title`, `GN_text`, `GN_date`) VALUES
-(1, 1, 'Instalation Complete', 'GL v2 successfully installed', UNIX_TIMESTAMP());
+(1, 1, 'Installation Complete', 'GL v2 successfully installed', UNIX_TIMESTAMP());
 
 INSERT INTO `garage` (`GA_id`, `GA_uid`, `GA_car`, `GA_damage`, `GA_location`) VALUES
 (23, 1, 4, 0, 3),
